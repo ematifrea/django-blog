@@ -1,0 +1,94 @@
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Private Keys and Certs
+*.pem
+
+# Editor temp files:
+*.swp
+*~
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+*.sql
+
+# Logs:
+*.log
+
+*idea*
+
+static/*
+media
+
+*.dump
+dump.rdb
+
+*.cpg
+*.dbf
+*.shp
+*.shx
+
+packer_cache
+*.iso
+*.box
+
+saml/FederationMetadata.xml
+
+*.tar
+
+*.gz
+
+# no keys
+*.pfx
+*.key
+*.crt
+
+
+server_config.yaml
+robots/*.png
+robots/log.html
+
+robots/output.xml
+
+robots/report.html
+
+_builds
+_projects
+_steps
+
+celerybeat-schedule
+
+htmlcov
+.coverage
+
+*.bak
+*.dat
+*.dir
+
+config.json
+
+wheelhouse
+
+
+.env
+.envrc
+
+
+# Sphinx documentation
+docs/_build/
+
+# macOS system meta file
+.DS_Store
+
+*secrets.yml
+/dist
+.tox
+.pytest_cache
+coverage.xml
+.venv/
