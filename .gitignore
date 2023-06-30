@@ -1,6 +1,8 @@
 # Python bytecode:
 *.py[co]
 
+*.sqlite3
+
 # Packaging files:
 *.egg*
 
